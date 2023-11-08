@@ -1,4 +1,5 @@
 # 🐝 BeesInTheTrap
+[![Build Status](https://app.travis-ci.com/adrian-marinescu-ch/beesinthetrap.svg?branch=main)](https://app.travis-ci.com/adrian-marinescu-ch/beesinthetrap)
 
 ## Commands
 1. Install dependencies - `composer install`

@@ -1,0 +1,10 @@
+language: php
+
+php:
+  - "8.1"
+
+install:
+  - composer install --no-interaction
+
+script:
+  - composer test
