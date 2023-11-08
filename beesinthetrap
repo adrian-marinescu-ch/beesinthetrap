@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use App\Command\Game;
+
+$gameCommand = new Game();
+$app = new Application();
+$app->add($gameCommand);
+$app->setDefaultCommand($gameCommand->getName());
+
+$app->run();
